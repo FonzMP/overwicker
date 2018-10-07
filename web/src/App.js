@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Roller from './Components/Roller'
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
           <h1 className="App-name">
             Overwicker
           </h1>
+          <Roller />
         </header>
       </div>
     );
