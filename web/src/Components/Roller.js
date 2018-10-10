@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import Character from './Character'
+
 class Roller extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { character: "Select 'Roll'", img: ""};
+  constructor() {
+    super();
+    this.state = { character: "Select 'Roll'", img: "", roll: false};
   }
 
   handleOnClick = () => {
@@ -15,16 +17,14 @@ class Roller extends Component {
     const rounded = Math.floor(number)
     const character = characters[rounded]
     const url = `https://d1u1mce87gyfbn.cloudfront.net/hero/${imageShortcut[rounded]}/hero-select-portrait.png`
-    this.setState({character: character, img: url});
+    this.setState({character: character, img: url, roll: true});
   }
 
   render() {
     return (
       <div className="roller-container">
-        <button onClick={this.handleOnClick}>Click</button>
-        <div>Your character this round is: {this.state.character}</div>
-        <div><img src={this.state.img} />
-        </div>
+        <button onClick={this.handleOnClick}>{this.state.roll ? 'Reroll' : 'Click' }</button>
+        <Character img={this.state.img} name={this.state.character} />
       </div>
     )
   }
