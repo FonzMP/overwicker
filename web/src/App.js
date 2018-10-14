@@ -5,7 +5,7 @@ import Roller from './Components/Roller'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="core">
         <header className="App-header">
           <h1 className="App-name">
             Overwicker

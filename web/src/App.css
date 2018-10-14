@@ -4,14 +4,15 @@
 }
 
 * {
-  background-color: #43484c;
+  margin: 0;
 }
+
 .App-name {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  font-size: 5rem;
-  color: white;
+  font-size: 10rem;
+  color: black;
   font-family: 'Overwatch';
 }
 
@@ -21,3 +22,34 @@
   text-align: center;
 }
 
+button {
+  width: 150px;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.character-box p, .character-name {
+  font-size: 2rem;
+  color:black;
+  font-family: 'Overwatch';
+}
+
+div {
+  display: block;
+  position: relative;
+}
+
+.core::after {
+  content: "";
+  background: url('./assets/images/verwatch.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
