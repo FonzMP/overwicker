@@ -1,7 +1,18 @@
+@font-face {
+  font-family: 'Overwatch';
+  src: url('./assets/fonts/bignoodletitling/big_noodle_titling.ttf') format('truetype');
+}
+
+* {
+  background-color: #43484c;
+}
 .App-name {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  font-size: 5rem;
+  color: white;
+  font-family: 'Overwatch';
 }
 
 .roller-container {
@@ -9,3 +20,4 @@
   margin: 0 auto;
   text-align: center;
 }
+

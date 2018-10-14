@@ -5,7 +5,7 @@ import Character from './Character'
 class Roller extends Component {
   constructor() {
     super();
-    this.state = { character: "Select 'Roll'", img: "", roll: false};
+    this.state = { character: "", img: "", roll: false};
   }
 
   handleOnClick = () => {
