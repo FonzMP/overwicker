@@ -15,6 +15,8 @@ Overwicker is a 'made for fun' application to assist a user in selecting a chara
    `cd overwicker/`
 3. CD in to **web** folder.
    `cd web/`
-4. Run NPM Start
+4. Install Node Packages
+   `npm i`
+5. Run NPM Start
    `npm start`
-5. Access via localhost - **Default** <a href="http://localhost:3000">http://localhost:3000</a>
+6. Access via localhost - **Default** <a href="http://localhost:3000">http://localhost:3000</a>
