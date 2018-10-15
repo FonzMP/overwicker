@@ -7,3 +7,14 @@ Overwicker is a 'made for fun' application to assist a user in selecting a chara
 - Remove multiple arrays and create Objects with character `name`, `img_url`, `role`.
 - Expand to create Team Selector (selecting six characters with 2 tanks, 1 healer and 3 damage dealers)
 - Expanding to create Team Selector where user picks quantity of each role.
+
+# Gitting Started
+
+1. Clone the repo to a selected location.
+2. CD in to **overwicker** folder.
+   `cd overwicker/`
+3. CD in to **web** folder.
+   `cd web/`
+4. Run NPM Start
+   `npm start`
+5. Access via localhost - **Default** <a href="http://localhost:3000">http://localhost:3000</a>
