@@ -5,3 +5,5 @@ Overwicker is a 'made for fun' application to assist a user in selecting a chara
 # Further Plans
 
 - Remove multiple arrays and create Objects with character `name`, `img_url`, `role`.
+- Expand to create Team Selector (selecting six characters with 2 tanks, 1 healer and 3 damage dealers)
+- Expanding to create Team Selector where user picks quantity of each role.
